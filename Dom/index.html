@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Dom - Document Object Model</title>
+</head>
+<body>
+    <section class="container">
+
+        <h1 id="header">To-Do App</h1>
+
+        <form action="" class="new-task-container box">
+            <label for="new-task">Add a new task</label>
+            <input type="text" id="new-task">
+            <button id="addTask">Add Task</button>
+        </form>
+        
+        <div class="todo-list box">
+            <h2 class = 'title'>Incomplete Task</h2>
+            <ul id="items">
+                <li class="item">
+                    <input type="checkbox"> <label>Task One</label>
+                    <button class="update">Update</button>
+                </li>
+                <li class="item">
+                    <input type="checkbox"> <label>Task One</label>
+                    <button class="update">Update</button>
+                </li>
+                <li class="item">
+                    <input type="checkbox"> <label>Task One</label>
+                    <button class="update">Update</button>
+                </li>
+            </ul>
+        </div>
+       <div class="comp-list box">
+        <h2>Complite task</h2>
+        <ul>
+            <li class="item">
+                <input type="checkbox"> <label>Task One</label>
+                <button class="delete">Delete</button>
+            </li>
+        </ul>
+       </div>
+    </section>
+
+    
+    <script src="./app.js"></script>
+</body>
+</html>
