@@ -1,9 +1,9 @@
 //  how object run in iterator....
 
 const obj = {
-  start: 0,
-  stopped: 100,
-  step: 5,
+  start: 10,
+  stopped: 302,
+  step: 3,
 };
 
 obj[Symbol.iterator] = function () {
